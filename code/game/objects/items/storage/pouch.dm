@@ -495,7 +495,7 @@
 
 /obj/item/storage/pouch/magazine/large/nsg_ext/fill_preset_inventory()
 	for(var/i = 1 to storage_slots)
-		new /obj/item/ammo_magazine/rifle/nsg23/extended(src)
+		new /obj/item/ammo_magazine/rifle/nsg23(src)
 
 /obj/item/storage/pouch/magazine/large/nsg_heap/fill_preset_inventory()
 	for(var/i = 1 to storage_slots)
@@ -1321,6 +1321,16 @@
 	new /obj/item/stack/cable_coil(src)
 	new /obj/item/device/multitool(src)
 	new /obj/item/tool/wrench(src)
+	new /obj/item/explosive/plastic(src)
+	new /obj/item/explosive/plastic(src)
+
+/obj/item/storage/pouch/tools/tactical/parajumper/fill_preset_inventory()
+	new /obj/item/weapon/gun/smg/nailgun/compact(src)
+	new /obj/item/tool/extinguisher/mini(src)
+	new /obj/item/tool/shovel/etool/folded(src)
+	new /obj/item/stack/cable_coil(src)
+	new /obj/item/circuitboard/apc(src)
+	new /obj/item/cell/high(src)
 	new /obj/item/explosive/plastic(src)
 	new /obj/item/explosive/plastic(src)
 

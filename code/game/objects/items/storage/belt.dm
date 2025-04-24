@@ -167,6 +167,8 @@
 		/obj/item/stack/sandbags,
 		/obj/item/stack/barbed_wire,
 		/obj/item/defenses/handheld/sentry,
+		/obj/item/ammo_magazine/sentry,
+		/obj/item/device/sentry_computer,
 		/obj/item/stack/rods,
 		/obj/item/stack/tile,
 	)
@@ -181,12 +183,12 @@
 	)
 
 /obj/item/storage/belt/utility/construction/full/fill_preset_inventory()
-	new /obj/item/tool/shovel/etool(src)
-	new /obj/item/defenses/handheld/sentry(src)
-	new /obj/item/weapon/gun/smg/nailgun/compact(src)
-	new /obj/item/tool/extinguisher/mini(src)
 	new /obj/item/stack/sheet/plasteel(src, 30)
 	new /obj/item/stack/sheet/metal(src, 50)
+	new /obj/item/stack/barbed_wire(src, 20)
+	new /obj/item/defenses/handheld/sentry(src)
+	new /obj/item/ammo_magazine/sentry(src)
+	new /obj/item/device/sentry_computer(src)
 
 /obj/item/storage/belt/utility/full/pred
 	name = "\improper Yautja toolbelt"
@@ -2180,13 +2182,9 @@
 	flags_atom = NO_NAME_OVERRIDE|NO_SNOW_TYPE
 	has_gamemode_skin = FALSE
 
-/obj/item/storage/belt/marine/rmc/rmc_f90_ammo/fill_preset_inventory()
+/obj/item/storage/belt/marine/rmc/nsg/fill_preset_inventory()
 	for(var/i in 1 to storage_slots)
-		new /obj/item/ammo_magazine/rifle/rmc_f90(src)
-
-/obj/item/storage/belt/marine/rmc/rmc_f90_ammo/marksman/fill_preset_inventory()
-	for(var/i in 1 to storage_slots)
-		new /obj/item/ammo_magazine/rifle/rmc_f90/marksman(src)
+		new /obj/item/ammo_magazine/rifle/nsg23(src)
 
 /obj/item/storage/belt/medical/rmc
 	name = "\improper L75 pattern medical storage rig"
