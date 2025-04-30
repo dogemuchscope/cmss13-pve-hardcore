@@ -3,10 +3,10 @@
 #define GET_DEFAULT_ROLE(title) (GLOB.RoleAuthority?.default_roles[title] ? GLOB.RoleAuthority.default_roles[title] : title)
 
 // Squad name defines
-#define SQUAD_MARINE_1 "Sun Riders"
-#define SQUAD_MARINE_2 "Bravo"
-#define SQUAD_MARINE_3 "Charlie"
-#define SQUAD_MARINE_4 "Delta"
+#define SQUAD_MARINE_1 "Night Owls"
+#define SQUAD_MARINE_2 "Boondock Battlements"
+#define SQUAD_MARINE_3 "Flaming Deuces"
+#define SQUAD_MARINE_4 "Toxic Eagls"
 #define SQUAD_MARINE_5 "Echo"
 #define SQUAD_MARINE_CRYO "Foxtrot"
 #define SQUAD_MARINE_INTEL "Intel"

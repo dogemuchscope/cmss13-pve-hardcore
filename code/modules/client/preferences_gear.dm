@@ -316,7 +316,7 @@ GLOBAL_LIST_EMPTY(gear_datums_by_name)
 	path = /obj/item/clothing/head/cmcap/snow
 
 /datum/gear/headwear/uscm/cap/sulaco
-	display_name = "USS Golden Arrow cap"
+	display_name = "USS Queequeg cap"
 	path = /obj/item/clothing/head/sulacocap
 	cost = 1
 
