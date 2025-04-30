@@ -758,13 +758,6 @@
 	color = "#995555"
 	name = "pool"
 
-/turf/open/gm/river/dark_water
-	color = "#4d4d4d"
-	name = "fuel"
-
-/turf/open/gm/river/dark_water/no_overlay
-	no_overlay = TRUE
-
 /turf/open/gm/river/red
 	color = "#995555"
 
@@ -785,16 +778,11 @@
 
 /turf/open/gm/river/ocean/deep_water
 	name = "deep water"
-
-/turf/open/gm/river/ocean/no_overlay
 	no_overlay = TRUE
 
 /turf/open/gm/river/ocean/deep_ocean
 	name = "deep ocean"
 	default_name = "deep ocean"
-
-/turf/open/gm/river/ocean/deep_ocean/no_overlay
-	no_overlay = TRUE
 
 /turf/open/gm/river/ocean/Entered(atom/movable/AM)
 	. = ..()
@@ -886,9 +874,6 @@
 	no_overlay = TRUE
 	supports_surgery = FALSE
 
-/turf/open/gm/river/no_overlay_lighted
-	no_overlay = TRUE
-	supports_surgery = FALSE
 
 
 
@@ -1284,9 +1269,6 @@
 
 /turf/open/shuttle/dropship/light_grey_middle
 	icon_state = "rasputin13"
-
-/turf/open/shuttle/dropship/medium_grey_single_wide_left_to_right
-	icon_state = "rasputin14"
 
 /turf/open/shuttle/dropship/can_surgery
 	icon_state = "rasputin1"
