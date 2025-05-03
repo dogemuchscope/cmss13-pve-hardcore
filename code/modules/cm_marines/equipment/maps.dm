@@ -162,6 +162,12 @@
 	html_link = ""
 	color = "#964B00"
 
+/obj/item/map/lv_671
+	name = "\improper LV-671 Map"
+	desc = "An orbital scan printout of the LV-671 colony."
+	html_link = ""
+	color = "cyan"
+
 GLOBAL_LIST_INIT_TYPED(map_type_list, /obj/item/map, setup_all_maps())
 
 /proc/setup_all_maps()
